@@ -27,6 +27,6 @@ jobs:
         image: tipsontech/leaderboard-and-counting
         tags: v1, latest
         registry: docker.io
-        dockerfile: Dockerfile
+        dockerfile: leaderboard-and-counting/Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
