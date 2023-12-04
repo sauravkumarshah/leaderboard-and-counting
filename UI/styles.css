@@ -1,0 +1,29 @@
+/* Style for the leaderboard table */
+.table-container {
+    margin-top: 20px;
+}
+
+.leaderboard-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.leaderboard-table th, .leaderboard-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style for the "Get Score" buttons */
+.get-score-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
